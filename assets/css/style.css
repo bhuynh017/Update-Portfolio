@@ -18,6 +18,7 @@ nav{
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 nav ul li {
@@ -68,6 +69,7 @@ figure {
     text-align: center;
     margin-top: 1%;
     margin-bottom: 3%;
+    font-size: 30px;
 }
 
 .center1 {
@@ -120,29 +122,38 @@ img.center1:hover{
 }
 
 img.center2:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 img.center3:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 img.center4:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 img.center5:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
-
-.contact {
+h4{
     text-align: center;
-    word-spacing: 10%;
-}
-.contact ul li {
-    display: inline;
+    background-color: lightblue;
     font-size: 30px;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: lightblue;
+    font-size: 30px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+
 @media screen and (max-width: 992px) {
     header {
       background: pink;
@@ -151,13 +162,13 @@ img.center5:hover{
   
   @media screen and (max-width: 768px) {
     nav {
-      background-color: pink;
+      background-color: lightblue;
     }
   }
   
   @media screen and (max-width: 576px) {
     .sample-img {
-      background-color: pink;
+      background-color: lightblue;
     }
   }
   
